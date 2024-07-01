@@ -1,0 +1,71 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .navbar-logo a {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 40px; /* Adjust as necessary */
+  }
+  
+  .navbar-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+    font-weight: 500;
+    transition: color 0.3s, transform 0.3s;
+  }
+  
+  .navbar-links a:hover {
+    color: #ff4081; /* A modern accent color */
+    transform: scale(1.1);
+  }
+  
+  .navbar-links .active-link {
+    color: #ff4081; /* Active link color */
+  }
+  
+  .navbar-search .search-form {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 25px;
+    padding: 5px 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-input {
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 25px;
+    font-size: 1em;
+  }
+  
+  .search-button {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px;
+    color: #333;
+  }
+  
+  .search-button i {
+    font-size: 1em;
+  }
+  
+  .search-input::placeholder {
+    color: #999;
+  }
+  

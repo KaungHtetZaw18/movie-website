@@ -1,0 +1,21 @@
+/* src/components/Movie.css */
+.movie {
+    width: 200px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #f9f9f9;
+    cursor: pointer; /* Indicate the element is clickable */
+    transition: transform 0.2s; /* Add a slight animation on hover */
+  }
+  
+  .movie:hover {
+    transform: scale(1.05); /* Slightly increase size on hover */
+  }
+  
+  .movie img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
